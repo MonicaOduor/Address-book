@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Book</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/sketchy/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+    <h1 class= 'text-center'>Address Book</h1>
+  <h2>Add a Contact:</h2>
+  <form id="new-contact">
+    <label for="new-first-name">First Name</label>
+    <input type="text" class='form-control' id="new-first-name">
+    <label for="new-last-name">Last Name</label>
+    <input type="text" class='form-control' id="new-last-name">
+    <label for="new-phone-number">Phone Number</label>
+    <input type="text" class='form-control' id="new-phone-number">
+    <br>
+    <button type="submit"class ='btn-block'>Add</button>
+  </form>
+
+  <h2>Contacts:</h2>
+  <ul id="contacts">
+  </ul>
+
+  <div id="show-contact">
+    <p>First Name: <span class="first-name"></span></p>
+    <p>Last Name: <span class="last-name"></span></p>
+    <p>Phone Number: <span class="phone-number"></span></p>
+    <div id="buttons">
+    </div>
+  </div>
+</div>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <script src="js/script.js"></script>
+</body>
+</html>
